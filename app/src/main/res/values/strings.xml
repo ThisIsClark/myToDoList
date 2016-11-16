@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">myToDoList</string>
+    <string name="empty_todo_list">没有待办事项\n点击添加</string>
 </resources>

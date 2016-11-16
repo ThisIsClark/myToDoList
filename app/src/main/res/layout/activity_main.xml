@@ -10,17 +10,19 @@
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:orientation="horizontal">
-        <fragment
-            android:id="@+id/top_left_fragment"
-            android:name="com.example.liuclark.mytodolist.subFragment"
+        <TextView
+            android:id="@+id/top_left_textview"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:gravity="center"
+            android:clickable="true"
             android:layout_weight="1"/>
-        <fragment
-            android:id="@+id/top_right_fragment"
-            android:name="com.example.liuclark.mytodolist.subFragment"
+        <TextView
+            android:id="@+id/top_right_textview"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:gravity="center"
+            android:clickable="true"
             android:layout_weight="1"/>
     </LinearLayout>
     <LinearLayout
@@ -28,17 +30,19 @@
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:orientation="horizontal">
-        <fragment
-            android:id="@+id/bottom_left_fragment"
-            android:name="com.example.liuclark.mytodolist.subFragment"
+        <TextView
+            android:id="@+id/bottom_left_textview"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:gravity="center"
+            android:clickable="true"
             android:layout_weight="1"/>
-        <fragment
-            android:id="@+id/bottom_right_fragment"
-            android:name="com.example.liuclark.mytodolist.subFragment"
+        <TextView
+            android:id="@+id/bottom_right_textview"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:gravity="center"
+            android:clickable="true"
             android:layout_weight="1"/>
     </LinearLayout>
 </LinearLayout>
